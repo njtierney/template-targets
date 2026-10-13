@@ -139,14 +139,10 @@ Read more at https://books.ropensci.org/targets/debugging.html
 
 ## Other useful things
 
-- `tar_errored()`
-
-- List out your tar
-
-
-## tar_meta()
-## tar_meta(fields = error, complete_only = TRUE)
-## tar_manifest()
+- `tar_errored()`: List out your targets that errored
+- `tar_meta()`: list the metadata of your targets as a data frame
+-  `tar_meta(fields = error, complete_only = TRUE)` - just the errors
+- `tar_manifest()` - just the name and command for reach target
 
 
 ## Projects
