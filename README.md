@@ -30,7 +30,7 @@ tar_visnetwork()
 
 To visualise your targets, to produce something like:
 
-![](figs/tar-visnet.png)
+![](figs/tar-vis-net.png)
 
 # Loading targets
 
