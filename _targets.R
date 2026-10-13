@@ -26,7 +26,7 @@ tar_assign({
     tar_target()
 
   # tidy - coefficients in a table
-  air_coefs <- tidy(air_fit) |> tar_target()
+  air_coefs <- tidy_model(air_fit, model_formula) |> tar_target()
 
   # glance - one line table summary, of model fit
   air_glance <- glance_model(air_fit, model_formula) |> tar_target()
